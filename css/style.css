@@ -13,7 +13,7 @@ list-style: none;
     font-family: 'Roboto', sans-serif;
 }
 
-/* navbar */
+/* estilo-navbar */
 
 .navbar {
     z-index: 10;
@@ -23,8 +23,50 @@ list-style: none;
     color: #030A8C;
 }
 
-/* index-header */
+/* estilos generales */
 
+h1 {
+    font-size: 50px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heading p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.main-container h1{
+    font-size: 50px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-container h2 {
+    font-size: 35px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*estilos-header */
 .header {
     display: flex;
     align-items: center;
@@ -40,18 +82,12 @@ list-style: none;
     align-items: center;
 }
 
-.video-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
 .intro p {
     padding: 10px;
     margin-bottom: 15px;
 }
 
-/* index-galeria */
+/* estilo-galeria */
 
 .galeria {
     max-width: 1200px;
@@ -78,7 +114,7 @@ list-style: none;
 }
 
 
-/* index-testimonial */
+/* estilo-testimonial */
 
 .testimonial {
     padding: 100px;
@@ -117,7 +153,7 @@ list-style: none;
     padding: 10px;
 }
 
-/* nosotros*/
+/* estilo-nosotros*/
 
 .heading {
     width: 90%;
@@ -132,15 +168,6 @@ list-style: none;
 
 }
 
-.heading h1 {
-    font-size: 50px;
-    color: #030A8C;
-    margin-bottom: 25px;
-    margin-top: 0px;
-    position: relative;
-
-}
-
 .heading h1::after {
     content: "";
     position: absolute;
@@ -148,12 +175,6 @@ list-style: none;
     height: 4px;
     display: block;
     margin: 0 auto;
-}
-
-.heading p {
-    font-size: 16px;
-    color: black;
-    margin-bottom: 25px;
 }
 
 .nosotros-container {
@@ -191,14 +212,8 @@ list-style: none;
     flex: 2;
 }
 
-.about-content h2 {
-    font-size: 40px;
-    margin-bottom: 15px;
-    color: #030A8C;
-}
 
-
-/* contactos */
+/* estilo-form-contacto */
 
 .form-contact-container {
     display: flex;
@@ -234,19 +249,11 @@ form h2 {
     align-items: center;
 }
 
-.main-container h1{
+.form-contact-container h1 {
     font-size: 50px;
     color: #030A8C;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    text-align: center;
-}
-
-.main-container h2 {
-    font-size: 40px;
-    color: #030A8C;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -305,7 +312,7 @@ input::placeholder, textarea::placeholder {
 }
 
 
-/* cervezas */
+/* estilos-cervezas */
 
 .cervezas {
     margin-top: 35px;
@@ -315,8 +322,16 @@ input::placeholder, textarea::placeholder {
 .cervezas h1 {
     font-size: 50px;
     color: #030A8C;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cervezas h2 {
+    font-size: 35px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -415,6 +430,89 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     text-decoration: none;
 }
 
+/* estilos-choperas */
+
+.heading-choperas {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.heading-choperas h1 {
+    font-size: 50px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.choperas-content h2 {
+    font-size: 35px;
+    color: #030A8C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heading-choperas h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.choperas-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+}
+
+.about-choperas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-choperas {
+    flex: 1;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.choperas-image img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.choperas-image:hover img {
+    transform: scale(1.2);
+}
+
+.choperas-content {
+    flex: 2;
+}
+
+.choperas-content p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
 
 /* footer */
 
@@ -502,6 +600,16 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
 
     .about-image {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .choperas {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .choperas-image {
         margin-right: 0px;
         margin-bottom: 20px;
     }
