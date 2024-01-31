@@ -547,7 +547,7 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
 
 @media screen (max-width:991px) {
-    
+
     .butons {
         justify-content: center;
     }
@@ -581,12 +581,28 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         padding: 0px 20px;
 
     }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+    .intro h2 {
+        font-size: 15px;
+    }
+
+    .intro p {
+        font-size: 10px;
+    }
     .heading h1 {
-        font-size: 36px;
+        font-size: 20px;
 
     }
+
+    .heading h2 {
+        font-size: 15px;
+    }
+
     .heading p {
-        font-size: 16px;
+        font-size: 10px;
         margin-bottom: 0px;
     }
 
@@ -616,7 +632,7 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
     .about-content p {
         padding: 0px;
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .box-galeria:nth-child(1) {
