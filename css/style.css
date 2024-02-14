@@ -38,19 +38,17 @@ body main h1 {
   color: #030A8C;
   font-size: 3rem;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 @media screen and (max-width: 600px) {
   body main h1 {
-    font-size: 35px;
-    color: aquamarine;
+    font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 375px) {
   body main h1 {
-    font-size: 25px;
-    color: aqua;
+    font-size: 1rem;
   }
 }
 body main h2 {
@@ -62,16 +60,16 @@ body main h2 {
 }
 @media screen and (max-width: 600px) {
   body main h2 {
-    font-size: 25px;
+    font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 375px) {
   body main h2 {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
 }
 body main p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: black;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -80,12 +78,12 @@ body main p {
 }
 @media screen and (max-width: 600px) {
   body main p {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 375px) {
   body main p {
-    font-size: 7px;
+    font-size: 0.6rem;
   }
 }
 body main .heading {
@@ -98,6 +96,11 @@ body main .heading {
   margin: 10px auto;
   margin-bottom: 0;
   margin-top: 0;
+}
+@media screen and (max-width: 600px) {
+  body main .heading {
+    padding: 0px 20px;
+  }
 }
 body main .heading h1::after {
   content: "";
@@ -113,10 +116,18 @@ body main .nosotros-container {
   padding: 10px 20px;
   margin-bottom: 25px;
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 600px) {
   body main .nosotros-container {
     flex-direction: column;
     padding: 20px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main .nosotros-container {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
   }
 }
 body main .nosotros-container .about-nosotros {
@@ -130,8 +141,17 @@ body main .nosotros-container .about-nosotros {
   overflow: hidden;
 }
 @media screen and (max-width: 600px) {
+  body main .nosotros-container .about-nosotros {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
   body main .nosotros-container .about-nosotros .nosotros-image {
     flex-direction: column;
+    align-items: center;
   }
 }
 body main .nosotros-container .about-nosotros .nosotros-image img {
@@ -139,6 +159,18 @@ body main .nosotros-container .about-nosotros .nosotros-image img {
   height: auto;
   display: flex;
   transition: 0.5s ease;
+}
+@media screen and (max-width: 600px) {
+  body main .nosotros-container .about-nosotros .nosotros-image img {
+    max-width: 60%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  body main .nosotros-container .about-nosotros .nosotros-image img {
+    max-width: 45%;
+  }
 }
 body main .nosotros-container .about-nosotros .nosotros-image img:hover {
   transform: scale(1.2);
@@ -151,9 +183,9 @@ body main .form-contact-container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 body main .form-contact-container form {
   padding: 50px 55px;
@@ -163,10 +195,21 @@ body main .form-contact-container form {
   width: 600px;
   background-color: #D2CFCA;
 }
+@media screen and (max-width: 600px) {
+  body main .form-contact-container form {
+    padding: 50px 30px;
+    width: 100%;
+  }
+}
 body main .form-contact-container form .input-group {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+@media screen and (max-width: 600px) {
+  body main .form-contact-container form .input-group {
+    padding: 15px;
+  }
 }
 body main .form-contact-container form .input-group label {
   color: #D2CFCA;
@@ -232,24 +275,56 @@ body main .cervezas .box-container .box img {
   height: 200px;
 }
 body main .cervezas .box-container .box .product-txt h3 {
-  font-size: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #030A8C;
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  body main .cervezas .box-container .box .product-txt h3 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main .cervezas .box-container .box .product-txt h3 {
+    font-size: 0.6rem;
+  }
 }
 body main .cervezas .box-container .box .product-txt p {
   margin-bottom: 10px;
   color: #030A8C;
   text-align: center;
+  font-size: 1rem;
+}
+@media screen and (max-width: 600px) {
+  body main .cervezas .box-container .box .product-txt p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main .cervezas .box-container .box .product-txt p {
+    font-size: 0.6rem;
+  }
 }
 body main .cervezas .box-container .box .product-txt .precio {
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: 700;
   color: #976F33 !important;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+  body main .cervezas .box-container .box .product-txt .precio {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main .cervezas .box-container .box .product-txt .precio {
+    font-size: 0.6rem;
+  }
 }
 body main .cervezas .box-container .box .product-txt .btn-3 {
   margin: 0;
@@ -259,11 +334,17 @@ body main .cervezas .box-container .box .product-txt .btn-3 {
   background-color: #030A8C;
   margin-top: 10px;
   display: inline-block;
-  padding: 11px 35px;
   border-radius: 25px;
   color: #D2CFCA;
   font-size: 16px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 600px) {
+  body main .cervezas .box-container .box .product-txt .btn-3 {
+    font-size: 13px;
+    padding: 6px 12px;
+    margin-top: 5px;
+  }
 }
 body main .cervezas .box-container .box .product-txt :hover {
   background-color: #D2CFCA;
@@ -278,6 +359,13 @@ body main .galeria {
   grid-auto-rows: 250px;
   gap: 20px;
   padding: 100px 0;
+}
+@media screen and (max-width: 600px) {
+  body main .galeria {
+    padding: 30px;
+    grid-template-columns: repeat(1, 2fr);
+    align-items: center;
+  }
 }
 body main .galeria .box-galeria img {
   width: 100%;
@@ -297,6 +385,12 @@ body main .testimonio-container .testimonial-content {
   justify-content: space-between;
   margin-top: 20px;
 }
+@media screen and (max-width: 600px) {
+  body main .testimonio-container .testimonial-content {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
 body main .testimonio-container .testimonial-content .testimonial-1 {
   flex-basis: calc(50% - 20px);
   text-align: left;
@@ -304,22 +398,50 @@ body main .testimonio-container .testimonial-content .testimonial-1 {
   border-top: 5px solid #030A8C;
   padding: 10px;
 }
+@media screen and (max-width: 600px) {
+  body main .testimonio-container .testimonial-content .testimonial-1 {
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+}
 body main .testimonio-container .testimonial-content .testimonial-1 img {
   width: 100px;
   padding: 10px;
 }
 body main .testimonio-container .testimonial-content .testimonial-1 h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #030A8C;
   margin-bottom: 15px;
   padding: 10px;
+  font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+  body main .testimonio-container .testimonial-content .testimonial-1 h3 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main .testimonio-container .testimonial-content .testimonial-1 h3 {
+    font-size: 0.6rem;
+  }
 }
 body main .testimonio-container .testimonial-content .testimonial-1 p {
+  font-size: 1rem;
   color: #030A8C;
   margin-bottom: 5px;
   margin-top: 15px;
   padding: 10px;
   text-align: left;
+}
+@media screen and (max-width: 600px) {
+  body main .testimonio-container .testimonial-content .testimonial-1 p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main .testimonio-container .testimonial-content .testimonial-1 p {
+    font-size: 0.6rem;
+  }
 }
 body main .heading-choperas {
   width: 90%;
@@ -347,11 +469,26 @@ body main .choperas-container .about-choperas {
   margin-right: 20px;
   overflow: hidden;
 }
+@media screen and (max-width: 600px) {
+  body main .choperas-container .about-choperas {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 body main .choperas-container .about-choperas .choperas-image img {
   max-width: 60%;
   height: auto;
   display: block;
   transition: 0.5s ease;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  body main .choperas-container .about-choperas .choperas-image img {
+    max-width: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 body main .choperas-container .about-choperas .choperas-image img:hover {
   transform: scale(1.2);
@@ -363,10 +500,21 @@ body .footer {
   background-color: #030A8C;
   padding: 40px 0;
 }
+@media screen and (max-width: 600px) {
+  body .footer {
+    padding: 30px;
+  }
+}
 body .footer .footer-content {
   display: flex;
   justify-content: space-between;
   padding: 10px 100px;
+}
+@media screen and (max-width: 600px) {
+  body .footer .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 body .footer .footer-content .link ul li a {
   color: #D2CFCA;
