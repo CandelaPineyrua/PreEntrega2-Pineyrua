@@ -43,12 +43,12 @@ body main h1 {
 }
 @media screen and (max-width: 600px) {
   body main h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 body main h2 {
@@ -60,16 +60,16 @@ body main h2 {
 }
 @media screen and (max-width: 600px) {
   body main h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main h2 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
 body main p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -78,12 +78,12 @@ body main p {
 }
 @media screen and (max-width: 600px) {
   body main p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 }
 body main .heading {
@@ -132,7 +132,7 @@ body main .nosotros-container {
 }
 body main .nosotros-container .about-nosotros {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex: 1;
@@ -275,7 +275,7 @@ body main .cervezas .box-container .box img {
   height: 200px;
 }
 body main .cervezas .box-container .box .product-txt h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #030A8C;
   margin-bottom: 10px;
@@ -284,32 +284,32 @@ body main .cervezas .box-container .box .product-txt h3 {
 }
 @media screen and (max-width: 600px) {
   body main .cervezas .box-container .box .product-txt h3 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main .cervezas .box-container .box .product-txt h3 {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 }
 body main .cervezas .box-container .box .product-txt p {
-  margin-bottom: 10px;
+  margin-bottom: 1.2rem;
   color: #030A8C;
   text-align: center;
   font-size: 1rem;
 }
 @media screen and (max-width: 600px) {
   body main .cervezas .box-container .box .product-txt p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main .cervezas .box-container .box .product-txt p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 }
 body main .cervezas .box-container .box .product-txt .precio {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #976F33 !important;
   text-align: center;
@@ -318,12 +318,12 @@ body main .cervezas .box-container .box .product-txt .precio {
 }
 @media screen and (max-width: 600px) {
   body main .cervezas .box-container .box .product-txt .precio {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main .cervezas .box-container .box .product-txt .precio {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 }
 body main .cervezas .box-container .box .product-txt .btn-3 {
@@ -336,12 +336,12 @@ body main .cervezas .box-container .box .product-txt .btn-3 {
   display: inline-block;
   border-radius: 25px;
   color: #D2CFCA;
-  font-size: 16px;
+  font-size: 1.2rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 600px) {
   body main .cervezas .box-container .box .product-txt .btn-3 {
-    font-size: 13px;
+    font-size: 1rem;
     padding: 6px 12px;
     margin-top: 5px;
   }
@@ -409,24 +409,24 @@ body main .testimonio-container .testimonial-content .testimonial-1 img {
   padding: 10px;
 }
 body main .testimonio-container .testimonial-content .testimonial-1 h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #030A8C;
   margin-bottom: 15px;
   padding: 10px;
-  font-weight: 700;
+  font-weight: 600;
 }
 @media screen and (max-width: 600px) {
   body main .testimonio-container .testimonial-content .testimonial-1 h3 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main .testimonio-container .testimonial-content .testimonial-1 h3 {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 }
 body main .testimonio-container .testimonial-content .testimonial-1 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #030A8C;
   margin-bottom: 5px;
   margin-top: 15px;
@@ -435,12 +435,12 @@ body main .testimonio-container .testimonial-content .testimonial-1 p {
 }
 @media screen and (max-width: 600px) {
   body main .testimonio-container .testimonial-content .testimonial-1 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 375px) {
   body main .testimonio-container .testimonial-content .testimonial-1 p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 }
 body main .heading-choperas {
